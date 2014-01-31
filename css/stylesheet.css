@@ -3,7 +3,13 @@ img {
 	height: 100%;
 }
 body{
-	background-color: red;
+	background-color: black;
+}
+p {
+    color: white;
+}
+h1 {
+    color:white;
 }
 
 
@@ -15,6 +21,9 @@ body{
 	text-decoration: overline;
 }
 
+li {
+    color: white;
+}
 
 
 
@@ -38,4 +47,8 @@ body{
     -webkit-transition: top 0.3s;
     -moz-transition: top 0.3s;
     -o-transition: top 0.3s;
+}
+.sidebar {
+    float: left;
+    clear: right;
 }
